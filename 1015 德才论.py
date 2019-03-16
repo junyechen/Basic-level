@@ -46,8 +46,7 @@
 #########
 #python性能问题，用python将有3个测试点超时
 
-line = str(input())
-line = line.split()
+line = input().split()
 N = int(line[0])
 L = int(line[1])
 H = int(line[2])
