@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ae1b0be4-19f9-4cfd-a0ed-10aaa7b7fa1f}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>1012 数字分类.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="1001 害死人不偿命的%283n+1%29猜想.py" />
+    <Compile Include="1002 写出这个数.py" />
+    <Compile Include="1003 我要通过.py" />
+    <Compile Include="1004 成绩排名.py" />
+    <Compile Include="1005 继续%283n+1%29猜想.py" />
+    <Compile Include="1006 换个格式输出整数.py" />
+    <Compile Include="1007 素数对猜想.py" />
+    <Compile Include="1008 数组元素循环右移问题.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1009 说反话.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1010 一元多项式求导.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1011 A+B 和 C.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1012 数字分类.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
