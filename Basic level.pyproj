@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{ae1b0be4-19f9-4cfd-a0ed-10aaa7b7fa1f}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>1031 查验身份证.py</StartupFile>
+    <StartupFile>1032 挖掘机技术哪家强.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -96,6 +96,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="1031 查验身份证.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1032 挖掘机技术哪家强.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
