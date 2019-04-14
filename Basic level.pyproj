@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{ae1b0be4-19f9-4cfd-a0ed-10aaa7b7fa1f}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>1032 挖掘机技术哪家强.py</StartupFile>
+    <StartupFile>1034 有理数四则运算.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -99,6 +99,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="1032 挖掘机技术哪家强.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1033 旧键盘打字.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1034 有理数四则运算.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
