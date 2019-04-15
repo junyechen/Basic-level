@@ -24,6 +24,14 @@ Insertion Sort
 1 2 3 5 7 8 9 4 6 0
 '''
 
+#####################################################################
+'''
+1、本题在知道排序算法后，模拟排序过程即可，不用真实实现排序，即调用sort函数帮助插入与归并
+2、如何实现输出排序后一次的方法，比较巧妙，借鉴了网上的资料（上面一条也是这样）
+'''
+#####################################################################
+
+'''
 def Insertion(seq1,seq2):
     flag = False
     for i in range(1,len(seq1)):
@@ -115,6 +123,7 @@ seq3 = [i for i in seq1]
 
 if not Insertion(seq1, seq2):
     MergeSort(seq3, seq2)
+'''
 
 
 '''
@@ -170,3 +179,46 @@ else:
         print(m[i],end=" ")
     print(m[i+1],end="")
 '''
+
+def Insertion(seq1,seq2):
+    flag = False
+    for i in range(1,len(seq1)):
+        temp=seq1[:i+1]
+        temp.sort()
+        seq1[:i+1]=temp
+        if flag:
+            print('Insertion Sort')
+            print(' '.join(map(str,seq1)))
+            return True
+        if seq1 == seq2:
+            flag = True
+    return flag
+
+def MergeSort(seq1, seq2):
+    i = 1
+    flag = False
+    while True:
+        for j in range(0,len(seq1),i*2):
+            temp=seq1[j:min([j+i*2,len(seq1)])]
+            temp.sort()
+            seq1[j:min([j+i*2,len(seq1)])]=temp
+        if flag:
+            print('Merge Sort')
+            print(' '.join(map(str,seq1))) 
+            return 0
+        if seq1 == seq2:
+            flag = True
+        i = i*2
+        if i > len(seq1):
+            break
+    seq1.sort()
+    print('Merge Sort')
+    print(' '.join(map(str,seq1)))
+
+N = int(input())
+seq1 = [int(i) for i in input().split()]
+seq2 = [int(i) for i in input().split()]
+seq3 = seq1[:]
+
+if not Insertion(seq1, seq2):
+    MergeSort(seq3, seq2)
