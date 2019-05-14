@@ -5,7 +5,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{ae1b0be4-19f9-4cfd-a0ed-10aaa7b7fa1f}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>1047 编程团体赛.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -144,6 +145,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="1047 编程团体赛.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1048 数字加密.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
