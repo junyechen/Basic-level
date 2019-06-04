@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{ae1b0be4-19f9-4cfd-a0ed-10aaa7b7fa1f}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>1061 判断题.py</StartupFile>
+    <StartupFile>1062 最简分数.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -186,6 +186,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="1061 判断题.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1062 最简分数.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
