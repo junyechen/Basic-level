@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{ae1b0be4-19f9-4cfd-a0ed-10aaa7b7fa1f}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>1072 开学寄语.py</StartupFile>
+    <StartupFile>1073 多选题常见计分法.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -217,6 +217,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="1072 开学寄语.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1073 多选题常见计分法.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
