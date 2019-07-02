@@ -46,3 +46,32 @@
 
 No Solution
 """
+
+#########################################################
+"""
+本题一开始没有思路，参阅网上思路：
+    因狼人数量少，即假设2个的狼人身份（假设i,j就是狼），然后对照各人说话进行判断是否说谎，得到说谎列表，判断说谎列表数量是否为2，并且说谎的2人中有且仅有1人是狼人，即得到符合解
+    当答案不唯一时，取最小解，即对2个狼人身份遍历时从最小开始遍历
+弄清算法思路后，解题非常简单，一次通过
+"""
+#########################################################
+
+num = int(input())
+say, ins, lie = [0] * num, [1] * num, []
+for i in range(num):
+    temp = int(input())
+    say[i] = temp
+for i in range(num - 1):
+    for j in range(i + 1,num):
+        ins[i] = ins[j] = -1
+        for k in range(num):
+            if say[i] != 0:
+                if ins[abs(say[k]) - 1] * say[k] < 0:
+                    lie.append(k)
+        if len(lie) == 2:
+            if len(set([i,j] + lie)) == 3:
+                print(i + 1,j + 1)
+                exit(0)
+        ins[i] = ins[j] = 1
+        lie = []
+print("No Solution")
