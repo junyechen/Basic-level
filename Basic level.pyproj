@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{ae1b0be4-19f9-4cfd-a0ed-10aaa7b7fa1f}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>1091 N-自守数.py</StartupFile>
+    <StartupFile>1092 最好吃的月饼.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -274,6 +274,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="1091 N-自守数.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1092 最好吃的月饼.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
